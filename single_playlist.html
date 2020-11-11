@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Music Player | Beat Studio - SinglePlaylist</title>
+
+	<link rel="stylesheet" type="text/css" href="./single-playlist_styling.css">
+	<!-- above is the link to the external stylesheet -->
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+	<!-- above is the link to font awesome CDN -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- meta tag to adjust the content according to the device width -->
+
+</head>
+<body>
+
+	<!-- navigation section -->
+
+	<nav>
+		<a href="./home_screen.html"><i class="fas fa-chevron-left"></i><span>Home</span></a>
+	</nav>
+
+	<!-- header section -->
+
+	<header>
+		<div id="left-div">
+			<div id="music-player-icon">
+				<i class="fas fa-headphones-alt"></i>		
+			</div>		
+
+			<div id="music-player-name">
+				<span id="beat">Beat</span>		
+				<span id="studio">Studio</span>
+			</div>
+
+			<div id="favourites">
+				Favourites
+			</div>
+		</div>
+
+		<div id="right-div">
+			<div id="search-box">
+				<form action="" method="put">
+					<button  id="search-button" type="submit"><i class="fas fa-search"></i></button>
+					<input type="search" name="search-box" placeholder="Search">
+					<button id="mic-button" type="submit"><i class="fas fa-microphone"></i></button>
+				</form>
+			</div>
+
+			<div id="bell-icon">
+				<i class="fas fa-bell"></i>
+				<div id="red-dot">
+				</div>
+			</div>
+
+			<div id="profile-img">
+				<img src="images/profile.jpg">
+			</div>
+		</div>
+	</header>
+
+	<!-- main section -->
+
+	<main>
+		<div id="main-div">
+
+			<!-- coldplay section -->
+
+			<div id="coldplay">
+				<div id="coldplay-img">					
+				</div>
+
+				<div id="coldplay-content">
+					<div id="coldplay-heading-container">
+						<div id="coldplay-heading">
+							ColdPlay
+						</div>
+
+						<div id="followers">
+							851 Followers
+						</div>
+					</div>
+
+					<div id="british-band">
+						British Band
+					</div>
+
+					<div id="band-description">
+						ColdPlay is a British music band that has enjoyed continuous success since their inception in 1996 through their intelligent and soulful songs. The band members are Chris Martin(lead vocals), Jonny Buckland(lead guitar), Guy Berryman(lead guitar) and Will Champion(drums)
+					</div>
+
+					<div id="play-all-container">
+						<button type="submit">
+							Play All
+						</button>
+
+						<div>
+							Follow
+						</div>
+					</div>
+
+					<div id="track-album">
+						247 tracks|128 albums
+					</div>
+				</div>
+			</div>
+
+			<!-- playlist section -->
+
+			<ol id="playlist">
+				<li>
+					<div class="playlist-box">
+						<div class="playlist-img-description">
+							<div class="playlist-img">
+								<img src="images/mirage.jpg">
+							</div>
+
+							<div class="playlist-description">
+								<div class="song-name">Mirage</div>
+								<div class="singer-name">Else</div>		
+							</div>
+						</div>
+						
+						<div class="playlist-duration">
+							4:44
+						</div>		
+
+						<div class="playlist-icons">				
+							<div class="heart-icon">
+								<i class="far fa-heart"></i>
+							</div>
+
+							<div class="add-icon">
+								<i class="fas fa-plus"></i>
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div class="playlist-box">
+						<div class="playlist-img-description">
+							<div class="playlist-img">
+								<img src="images/worryboutus.jpg">
+							</div>
+
+							<div class="playlist-description">
+								<div class="song-name">Worry Bout Us</div>
+								<div class="singer-name">Rosie Lowe</div>					
+							</div>
+						</div>
+						
+						<div class="playlist-duration">
+							4:44
+						</div>		
+
+						<div class="playlist-icons">				
+							<div class="heart-icon">
+								<i class="far fa-heart"></i>
+							</div>
+
+							<div class="add-icon">
+								<i class="fas fa-plus"></i>
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div class="playlist-box">
+						<div class="playlist-img-description">
+							<div class="playlist-img">
+								<img src="images/newskin.png">
+							</div>
+
+							<div class="playlist-description">
+								<div class="song-name">New Skin</div>
+								<div class="singer-name">Flume</div>				
+							</div>
+						</div>
+						
+						<div class="playlist-duration">
+							4:44
+						</div>		
+
+						<div class="playlist-icons">				
+							<div class="heart-icon">
+								<i class="far fa-heart"></i>
+							</div>
+
+							<div class="add-icon">
+								<i class="fas fa-plus"></i>
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div class="playlist-box">
+						<div class="playlist-img-description">
+							<div class="playlist-img">
+								<img src="images/mirage.jpg">
+							</div>
+
+							<div class="playlist-description">
+								<div class="song-name">Mirage</div>
+								<div class="singer-name">Else</div>					
+							</div>
+						</div>
+						
+						<div class="playlist-duration">
+							4:44
+						</div>		
+
+						<div class="playlist-icons">				
+							<div class="heart-icon">
+								<i class="far fa-heart"></i>
+							</div>
+
+							<div class="add-icon">
+								<i class="fas fa-plus"></i>
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div class="playlist-box">
+						<div class="playlist-img-description">
+							<div class="playlist-img">
+								<img src="images/worryboutus.jpg">
+							</div>
+
+							<div class="playlist-description">
+								<div class="song-name">Worry Rosie Lowe</div>							
+							</div>
+						</div>
+						
+						<div class="playlist-duration">
+							4:44
+						</div>		
+
+						<div class="playlist-icons">				
+							<div class="heart-icon">
+								<i class="far fa-heart"></i>
+							</div>
+
+							<div class="add-icon">
+								<i class="fas fa-plus"></i>
+							</div>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div class="playlist-box">
+						<div class="playlist-img-description">
+							<div class="playlist-img">
+								<img src="images/newskin.png">
+							</div>
+
+							<div class="playlist-description">
+								<div class="song-name">New Skin</div>
+								<div class="singer-name">Flume</div>						
+							</div>
+						</div>
+						
+						<div class="playlist-duration">
+							4:44
+						</div>		
+
+						<div class="playlist-icons">				
+							<div class="heart-icon">
+								<i class="far fa-heart"></i>
+							</div>
+
+							<div class="add-icon">
+								<i class="fas fa-plus"></i>
+							</div>
+						</div>
+					</div>
+				</li>
+			</ol>
+		</div>
+
+		<!-- aside section -->
+
+		<div id="aside-div">
+
+			<!-- similar artists section -->
+
+			<div id="similar-artists">
+				<div id="similar-artists-heading-container">
+					<div class="aside-heading">
+						Similar Artists
+					</div>
+
+					<div class="view-all">
+						View All
+					</div>
+				</div>
+
+				<div id="similar-artists-content">
+					<div class="similar-artists-box">
+						<div class="similar-artists-img-description">
+							<div class="similar-artists-img">
+								<img src="images/mirage.jpg">
+
+								<div class="hover-icon">
+									<a href="#footer"><i class="fas fa-play"></i></a>
+								</div>
+							</div>
+
+							<div class="similar-artists-description">
+								<div class="band-name">Imagine Dragons</div>
+								<div class="band-type-name">Pop Band</div>
+							</div>
+						</div>
+
+						<div class="similar-artists-duration">
+							<div class="similar-artists-dropdown-icon"><a href="#similar-artists-dropdown-1"><i class="fas fa-ellipsis-h"></i></a></div>
+
+							<div id="similar-artists-dropdown-1" class="dropdown-style">
+								<div class="dropdown-button">
+									<button>
+										<a href="#similar-artists-content">X</a>
+									</button>
+								</div>
+
+								<div class="play-now-link">
+									<a href="#footer">Play Now</a>
+								</div>
+
+								<div>
+									Add To Queue
+								</div>
+
+								<div>
+									Add To Favourites
+								</div>
+
+								<div>
+									Song Info
+								</div>
+							</div>
+
+							<div class="time">4:44</div>
+						</div>
+					</div>
+
+					<div class="similar-artists-box">
+						<div class="similar-artists-img-description">
+							<div class="similar-artists-img">
+								<img src="images/mirage.jpg">
+
+								<div class="hover-icon">
+									<a href="#footer"><i class="fas fa-play"></i></a>
+								</div>
+							</div>
+
+							<div class="similar-artists-description">
+								<div class="band-name">Imagine Dragons</div>
+								<div class="band-type-name">Pop Band</div>
+							</div>
+						</div>
+
+						<div class="similar-artists-duration">
+							<div class="similar-artists-dropdown-icon"><a href="#similar-artists-dropdown-2"><i class="fas fa-ellipsis-h"></i></a></div>
+
+							<div id="similar-artists-dropdown-2" class="dropdown-style">
+								<div class="dropdown-button">
+									<button>
+										<a href="#similar-artists-content">X</a>
+									</button>
+								</div>
+
+								<div class="play-now-link">
+									<a href="#footer">Play Now</a>
+								</div>
+
+								<div>
+									Add To Queue
+								</div>
+
+								<div>
+									Add To Favourites
+								</div>
+
+								<div>
+									Song Info
+								</div>
+							</div>
+
+
+							<div class="time">4:44</div>
+						</div>
+					</div>
+
+					<div class="similar-artists-box">
+						<div class="similar-artists-img-description">
+							<div class="similar-artists-img">
+								<img src="images/mirage.jpg">
+
+								<div class="hover-icon">
+									<a href="#footer"><i class="fas fa-play"></i></a>
+								</div>
+							</div>
+
+							<div class="similar-artists-description">
+								<div class="band-name">Imagine Dragons</div>
+								<div class="band-type-name">Pop Band</div>
+							</div>
+						</div>
+
+						<div class="similar-artists-duration">
+							<div class="similar-artists-dropdown-icon"><a href="#similar-artists-dropdown-3"><i class="fas fa-ellipsis-h"></i></a></div>
+
+							<div id="similar-artists-dropdown-3" class="dropdown-style">
+								<div class="dropdown-button">
+									<button>
+										<a href="#similar-artists-content">X</a>
+									</button>
+								</div>
+
+								<div class="play-now-link">
+									<a href="#footer">Play Now</a>
+								</div>
+
+								<div>
+									Add To Queue
+								</div>
+
+								<div>
+									Add To Favourites
+								</div>
+
+								<div>
+									Song Info
+								</div>
+							</div>
+
+							<div class="time">4:44</div>
+						</div>
+					</div>
+				</div>				
+			</div>
+
+			<!-- recently played section -->
+
+			<div id="recently-played">
+				<div id="recently-played-heading-container">
+					<div class="aside-heading">
+						Recently Played
+					</div>
+
+					<div class="view-all">
+						View All
+					</div>
+				</div>
+
+				<ol id="recently-played-list">
+					<li>
+						<div class="recently-played-box">
+							<div class="recently-played-img-description">
+								<div class="recently-played-img">
+									<img src="images/mirage.jpg">
+								</div>
+
+								<div class="recently-played-description">
+									<div class="song-name">Mirage</div>								
+									<div class="singer-name">Else</div>
+								</div>
+							</div>
+
+							<div class="recently-played-icon">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="recently-played-box">
+							<div class="recently-played-img-description">
+								<div class="recently-played-img">
+									<img src="images/worryboutus.jpg">
+								</div>
+
+								<div class="recently-played-description">
+									<div class="song-name">Worry Bout Us</div>						
+									<div class="singer-name">Rosie Lowe</div>
+								</div>
+							</div>
+
+							<div class="recently-played-icon">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="recently-played-box">
+							<div class="recently-played-img-description">
+								<div class="recently-played-img">
+									<img src="images/newskin.png">
+								</div>
+
+								<div class="recently-played-description">
+									<div class="song-name">New Skin</div>							
+									<div class="singer-name">Flume</div>
+								</div>
+							</div>
+
+							<div class="recently-played-icon">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="recently-played-box">
+							<div class="recently-played-img-description">
+								<div class="recently-played-img">
+									<img src="images/mirage.jpg">
+								</div>
+
+								<div class="recently-played-description">
+									<div class="song-name">Mirage</div>								
+									<div class="singer-name">Else</div>
+								</div>
+							</div>
+
+							<div class="recently-played-icon">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="recently-played-box">
+							<div class="recently-played-img-description">
+								<div class="recently-played-img">
+									<img src="images/worryboutus.jpg">
+								</div>
+
+								<div class="recently-played-description">
+									<div class="song-name">Worry Bout Us</div>						
+									<div class="singer-name">Rosie Lowe</div>
+								</div>
+							</div>
+
+							<div class="recently-played-icon">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+					</li>
+
+					<li>
+						<div class="recently-played-box">
+							<div class="recently-played-img-description">
+								<div class="recently-played-img">
+									<img src="images/newskin.png">
+								</div>
+
+								<div class="recently-played-description">
+									<div class="song-name">New Skin</div>							
+									<div class="singer-name">Flume</div>
+								</div>
+							</div>
+
+							<div class="recently-played-icon">
+								<i class="far fa-heart"></i>
+							</div>
+						</div>
+					</li>
+				</ol>
+			</div>
+		</div>
+	</main>
+
+	<!-- bottom player section -->
+
+	<footer id="footer">
+		<div id="bottom-player">
+			<div id="song-img-description-icons">
+				<div id="song-img">
+					<img src="images/imaginedragons.jpg">
+				</div>	
+
+				<div id="song-description">
+					<div id="song-description-1">
+						Thunder
+					</div>
+
+					<div id="song-description-2">
+						Imagine Dragons
+					</div>
+				</div>		
+
+				<div id="song-icons">
+					<div class="normal-icon"><i class="far fa-heart"></i></div>
+					<div class="normal-icon"><i class="fas fa-ban"></i></div>
+				</div>
+			</div>
+
+			<div id="main-controls">
+				<div id="main-controls-icons">
+					<div class="normal-icon"><i class="fas fa-random"></i></div>
+					<div class="normal-icon"><i class="fas fa-step-backward"></i></div>			
+					<div id="main-icon"><i class="fas fa-pause"></i></div>
+					<div class="normal-icon"><i class="fas fa-step-forward"></i></div>
+					<div class="normal-icon"><i class="fas fa-redo-alt"></i></div>
+				</div>
+
+				<div id="main-controls-bar">
+					<div class="song-time">
+						1:39
+					</div>
+
+					<input type="range" min="0" max="100" step="1" value="40">
+
+					<div class="song-time">
+						4:44
+					</div>
+				</div>
+			</div>
+
+			<div id="aside-controls">
+				<div class="normal-icon"><i class="fas fa-list"></i></div>
+				<div class="normal-icon"><i class="fas fa-desktop"></i></div>
+				<div class="normal-icon"><i class="fas fa-volume-up"></i></div>
+				<input type="range" min="0" max="100" step="1" value="40">
+				<div class="normal-icon"><i class="fas fa-expand-alt"></i></div>
+			</div>		
+
+			<div id="bottom-player-button">
+				<button>
+					<a href="#similar-artists-content">X</a>
+				</button>
+			</div>
+		</div>	
+	</footer>
+
+</body>
+</html>

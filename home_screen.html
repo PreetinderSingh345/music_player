@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Music Player | Beat Studio - HomeScreen</title>
+
+	<link rel="stylesheet" type="text/css" href="./home_screen_styling.css">
+	<!-- above is the link to the external stylesheet -->
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+	<!-- above is the link to font awesome CDN -->
+
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<!-- meta tag to adjust the content according to the device width -->
+
+</head>
+<body>
+
+	<!-- header section -->
+
+	<header>
+		<div id="left-div">
+			<div id="music-player-icon">
+				<i class="fas fa-headphones-alt"></i>		
+			</div>		
+
+			<div id="music-player-name">
+				<span id="beat">Beat</span>		
+				<span id="studio">Studio</span>
+			</div>
+
+			<div id="favourites">
+				Favourites
+			</div>
+		</div>
+
+		<div id="right-div">
+			<div id="search-box">
+				<form action="" method="put">
+					<button  id="search-button" type="submit"><i class="fas fa-search"></i></button>
+					<input type="search" name="search-box" placeholder="Search">
+					<button id="mic-button" type="submit"><i class="fas fa-microphone"></i></button>
+				</form>
+			</div>
+
+			<div id="bell-icon">
+				<i class="fas fa-bell"></i>
+				<div id="red-dot">
+				</div>
+			</div>
+
+			<div id="profile-img">
+				<img src="images/profile.jpg">
+			</div>
+		</div>
+	</header>
+
+	<!-- main section -->
+
+	<main>
+		<div id="main-div">
+
+			<!-- carousel section -->
+
+			<div id="carousel">
+				<div id="carousel-item-1" class="carousel-box">
+					<div class="left-link">
+						<a href="#carousel-item-5"><i class="fas fa-chevron-left"></i></a>
+					</div>
+
+					<div class="carousel-img">
+						<img src="./images/carousel-1.jpg">
+					</div>
+
+					<div class="right-link">
+						<a href="#carousel-item-2"><i class="fas fa-chevron-right"></i></a>
+					</div>
+				</div>
+
+				<div id="carousel-item-2" class="carousel-box">
+					<div class="left-link">
+						<a href="#carousel-item-1"><i class="fas fa-chevron-left"></i></a>
+					</div>
+
+					<div class="carousel-img">
+						<img src="./images/carousel-2.jpg">
+					</div>
+
+					<div class="right-link">
+						<a href="#carousel-item-3"><i class="fas fa-chevron-right"></i></a>
+					</div>
+				</div>
+
+				<div id="carousel-item-3" class="carousel-box">
+					<div class="left-link">
+						<a href="#carousel-item-2"><i class="fas fa-chevron-left"></i></a>
+					</div>
+
+					<div class="carousel-img">
+						<img src="./images/carousel-3.jpg">
+					</div>
+
+					<div class="right-link">
+						<a href="#carousel-item-4"><i class="fas fa-chevron-right"></i></a>
+					</div>
+				</div>		
+
+				<div id="carousel-item-4" class="carousel-box">
+					<div class="left-link">
+						<a href="#carousel-item-3"><i class="fas fa-chevron-left"></i></a>
+					</div>
+
+					<div class="carousel-img">
+						<img src="./images/carousel-4.jpg">
+					</div>
+
+					<div class="right-link">
+						<a href="#carousel-item-5"><i class="fas fa-chevron-right"></i></a>
+					</div>
+				</div>							
+
+				<div id="carousel-item-5" class="carousel-box">
+					<div class="left-link">
+						<a href="#carousel-item-4"><i class="fas fa-chevron-left"></i></a>
+					</div>
+
+					<div class="carousel-img">
+						<img src="./images/carousel-5.jpg">
+					</div>
+
+					<div class="right-link">
+						<a href="#carousel-item-1"><i class="fas fa-chevron-right"></i></a>
+					</div>
+				</div>							
+			</div>
+
+			<!-- latest release section -->
+
+			<div id="latest-release">
+				<div class="heading">
+					Latest Release
+				</div>
+
+				<div id="latest-release-content">
+					<div class="latest-release-box">
+						<div class="latest-release-img-description">
+							<div class="latest-release-img">
+								<img src="./images/onism.jpg">	
+
+								<div class="latest-release-artists-hindi-english-hover-icon">
+									<a href="#footer"><i class="fas fa-play"></i></a>			
+								</div>
+							</div>
+
+							<div class="latest-release-description">
+								<div class="onism">Onism</div>
+								<div class="date">AUG 11, 2017</div>	
+							</div>
+						</div>
+
+						<div class="latest-release-duration">
+							<div class="latest-release-dropdown-icon">
+								<a href="#latest-release-dropdown-1"><i class="fas fa-ellipsis-h"></i></a>
+							</div>
+
+							<div id="latest-release-dropdown-1" class="dropdown-style">
+								<div class="dropdown-button">
+									<button>
+										<a href="#latest-release-content">X</a>
+									</button>
+								</div>
+
+								<div class="play-now-link">
+									<a href="#footer">Play Now</a>
+								</div>
+
+								<div>
+									Add To Queue
+								</div>
+
+								<div>
+									Add To Favourites
+								</div>
+
+								<div>
+									Song Info
+								</div>
+							</div>
+
+							<div class="time">4:44</div>
+						</div>
+					</div>
+
+					<div class="latest-release-box">
+						<div class="latest-release-img-description">
+							<div class="latest-release-img">
+								<img src="./images/onism.jpg">	
+
+								<div class="latest-release-artists-hindi-english-hover-icon">
+									<a href="#footer"><i class="fas fa-play"></i></a>
+								</div>				
+							</div>
+
+							<div class="latest-release-description">
+								<div class="onism">Onism</div>
+								<div class="date">AUG 11, 2017</div>	
+							</div>
+						</div>
+
+						<div class="latest-release-duration">
+							<div class="latest-release-dropdown-icon">
+								<a href="#latest-release-dropdown-2"><i class="fas fa-ellipsis-h"></i></a>		
+							</div>
+
+							<div id="latest-release-dropdown-2" class="dropdown-style">
+								<div class="dropdown-button">
+									<button>
+										<a href="#latest-release-content">X</a>
+									</button>
+								</div>
+
+								<div class="play-now-link">
+									<a href="#footer">Play Now</a>
+								</div>
+
+								<div>
+									Add To Queue
+								</div>
+
+								<div>
+									Add To Favourites
+								</div>
+
+								<div>
+									Song Info
+								</div>								
+							</div>
+
+							<div class="time">4:44</div>
+						</div>
+					</div>
+
+					<div class="latest-release-box">
+						<div class="latest-release-img-description">
+							<div class="latest-release-img">
+								<img src="./images/onism.jpg">
+
+								<div class="latest-release-artists-hindi-english-hover-icon">
+									<a href="#footer"><i class="fas fa-play"></i></a>
+								</div>					
+							</div>
+
+							<div class="latest-release-description">
+								<div class="onism">Onism</div>
+								<div class="date">AUG 11, 2017</div>	
+							</div>
+						</div>
+
+						<div class="latest-release-duration">
+							<div class="latest-release-dropdown-icon">
+								<a href="#latest-release-dropdown-3"><i class="fas fa-ellipsis-h"></i></a>
+							</div>
+
+							<div id="latest-release-dropdown-3" class="dropdown-style">
+								<div class="dropdown-button">
+									<button>
+										<a href="#latest-release-content">X</a>
+									</button>
+								</div>
+
+								<div class="play-now-link">
+									<a href="#footer">Play Now</a>
+								</div>
+
+								<div>
+									Add To Queue
+								</div>
+
+								<div>
+									Add To Favourites
+								</div>
+
+								<div>
+									Song Info
+								</div>								
+							</div>
+
+							<div class="time">4:44</div>
+						</div>
+					</div>
+
+					<div class="latest-release-box">
+						<div class="latest-release-img-description">
+							<div class="latest-release-img">
+								<img src="./images/onism.jpg">	
+
+								<div class="latest-release-artists-hindi-english-hover-icon">
+									<a href="#footer"><i class="fas fa-play"></i></a>
+								</div>					
+							</div>
+
+							<div class="latest-release-description">
+								<div class="onism">Onism</div>
+								<div class="date">AUG 11, 2017</div>	
+							</div>
+						</div>
+
+						<div class="latest-release-duration">
+							<div class="latest-release-dropdown-icon">
+								<a href="#latest-release-dropdown-4"><i class="fas fa-ellipsis-h"></i>
+							</div>
+
+							<div id="latest-release-dropdown-4" class="dropdown-style">
+								<div class="dropdown-button">
+									<button>
+										<a href="#latest-release">X</a>
+									</button>
+								</div>
+
+								<div class="play-now-link">
+									<a href="#footer">Play Now</a>
+								</div>
+
+								<div>
+									Add To Queue
+								</div>
+
+								<div>
+									Add To Favourites
+								</div>
+
+								<div>
+									Song Info
+								</div>								
+							</div>
+
+							<div class="time">4:44</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- popular artists section -->
+
+			<div id="popular-artists">
+				<div class="heading">
+					Popular Artists
+				</div>
+
+				<div id="popular-artists-content">
+					<div class="popular-artists-box">
+						<div class="popular-artists-img">
+							<img src="./images/edsheeran.jpg">
+
+							<div class="latest-release-artists-hindi-english-hover-icon">
+								<a href="./single_playlist.html"><i class="fas fa-play"></i></a>
+							</div>
+						</div>
+
+						<div class="popular-artists-name">
+							Ed Sheeran
+						</div>						
+					</div> 
+
+					<div class="popular-artists-box">
+						<div class="popular-artists-img">
+							<img src="./images/coldplay.png">
+
+							<div class="latest-release-artists-hindi-english-hover-icon">
+								<a href="./single_playlist.html"><i class="fas fa-play"></i></a>
+							</div>
+						</div>
+
+						<div class="popular-artists-name">
+							ColdPlay
+						</div>
+					</div> 
+
+					<div class="popular-artists-box">
+						<div class="popular-artists-img">
+							<img src="./images/zayn.jpg">
+
+							<div class="latest-release-artists-hindi-english-hover-icon">
+								<a href="./single_playlist.html"><i class="fas fa-play"></i></a>
+							</div>
+						</div>
+
+						<div class="popular-artists-name">
+							Zayn
+						</div>
+					</div> 
+
+					<div class="popular-artists-box">
+						<div class="popular-artists-img">
+							<img src="./images/charlieputh.jpg">
+
+							<div class="latest-release-artists-hindi-english-hover-icon">
+								<a href="./single_playlist.html"><i class="fas fa-play"></i></a>
+							</div>
+						</div>
+
+						<div class="popular-artists-name">
+							Charlie Puth
+						</div>
+					</div> 
+
+					<div class="popular-artists-box">
+						<div class="popular-artists-img">
+							<img src="./images/imaginedragons.jpg">
+
+							<div class="latest-release-artists-hindi-english-hover-icon">
+								<a href="./single_playlist.html"><i class="fas fa-play"></i></a>
+							</div>
+						</div>
+
+						<div class="popular-artists-name">
+							Imagine Dragons
+						</div>
+					</div> 
+
+					<div class="popular-artists-box">
+						<div class="popular-artists-img">
+							<img src="./images/brunomars.jpg">
+
+							<div class="latest-release-artists-hindi-english-hover-icon">
+								<a href="./single_playlist.html"><i class="fas fa-play"></i></a>
+							</div>
+						</div>
+
+						<div class="popular-artists-name">
+							Bruno Mars
+						</div>
+					</div> 
+				</div>
+			</div>
+
+			<!-- stations section -->
+
+			<div id="stations">
+				<div id="station-main-img">
+					<div id="light-yellow">
+					</div>
+
+					<div id="dark-yellow">
+					</div>
+
+					<div id="orange">
+						<div id="music"><i class="fas fa-music"></i></div>
+						<div>Stations</div>
+					</div>
+				</div>
+
+				<div class="station-img">
+					<img src="./images/flower.jpg">
+
+					<div class="station-text">
+						Love
+					</div>
+				</div>
+
+				<div class="station-img">
+					<img src="./images/retro.jpg">
+
+					<div class="station-text">
+						Retro
+					</div>
+				</div>
+
+				<div class="station-img">
+					<img src="./images/coffee.jpg">
+
+					<div class="station-text">
+						Chill
+					</div>
+				</div>
+
+				<div class="station-img">
+					<img src="./images/workout.jpg">
+
+					<div class="station-text">
+						Workout
+					</div>
+				</div>
+
+				<div class="station-img">
+					<img src="./images/rock.jpg">
+
+					<div class="station-text">
+						Rock
+					</div>
+				</div>
+
+				<div class="station-img">
+					<img src="./images/pop.jpg">
+
+					<div class="station-text">
+						Pop
+					</div>
+				</div>
+			</div>
+
+			<!-- categories section -->
+
+			<div id="categories">
+				<div class="category-img">					
+					<img src="./images/party.jpg">					
+					<div class="category-text">
+						Party
+					</div>
+				</div>
+
+				<div class="category-img">
+					<img src="./images/dj.jpeg">
+					<div class="category-text">
+						Electronic
+					</div>
+				</div>
+
+				<div class="category-img">
+					<img src="./images/roadtrip.jpg">
+					<div class="category-text">
+						Road Trip
+					</div>
+				</div>
+			</div>
+
+			<!-- latest english section -->
+
+			<div id="latest-english">
+				<div class="heading">
+					Latest English
+				</div>
+
+				<div id="latest-english-content">
+					<div class="latest-english-box">						
+						<div class="latest-english-img">
+							<img src="./images/mirage.jpg">
+
+							<div class="latest-release-artists-hindi-english-hover-icon">
+								<a href="#footer"><i class="fas fa-play"></i></a>			
+							</div>
+						</div>
+
+						<div class="latest-english-description">
+							<div class="onism">Onism</div>
+							<div class="date">AUG 11, 2017</div>						
+						</div>							
+					</div>
+
+					<div class="latest-english-box">
+						<div class="latest-english-img">
+							<img src="./images/worryboutus.jpg">
+
+							<div class="latest-release-artists-hindi-english-hover-icon">
+								<a href="#footer"><i class="fas fa-play"></i></a>			
+							</div>
+						</div>
+
+						<div class="latest-english-description">
+							<div class="onism">Onism</div>
+							<div class="date">AUG 11, 2017</div>						
+						</div>
+					</div>
+
+					<div class="latest-english-box">
+						<div class="latest-english-img">
+							<img src="./images/newskin.png">
+
+							<div class="latest-release-artists-hindi-english-hover-icon">
+								<a href="#footer"><i class="fas fa-play"></i></a>			
+							</div>
+						</div>					
+
+						<div class="latest-english-description">
+							<div class="onism">Onism</div>
+							<div class="date">AUG 11, 2017</div>	
+						</div>
+					</div>
+
+					<div class="latest-english-box">
+						<div class="latest-english-img">
+							<img src="./images/mirage.jpg">
+
+							<div class="latest-release-artists-hindi-english-hover-icon">
+								<a href="#footer"><i class="fas fa-play"></i></a>			
+							</div>
+						</div>
+
+						<div class="latest-english-description">
+							<div class="onism">Onism</div>
+							<div class="date">AUG 11, 2017</div>						
+						</div>
+					</div>
+
+					<div class="latest-english-box">
+						<div class="latest-english-img">
+							<img src="./images/worryboutus.jpg">
+
+							<div class="latest-release-artists-hindi-english-hover-icon">
+								<a href="#footer"><i class="fas fa-play"></i></a>			
+							</div>
+						</div>
+
+						<div class="latest-english-description">
+							<div class="onism">Onism</div>
+							<div class="date">AUG 11, 2017</div>						
+						</div>
+					</div>
+
+					<div class="latest-english-box">
+						<div class="latest-english-img">
+							<img src="./images/newskin.png">
+
+							<div class="latest-release-artists-hindi-english-hover-icon">
+								<a href="#footer"><i class="fas fa-play"></i></a>			
+							</div>
+						</div>
+
+						<div class="latest-english-description">
+							<div class="onism">Onism</div>
+							<div class="date">AUG 11, 2017</div>							
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- latest hindi section -->
+
+			<div id="latest-hindi">
+				<div class="heading">
+					Latest Hindi
+				</div>
+
+				<div id="latest-hindi-content">
+					<div class="latest-hindi-box">
+						<div class="latest-hindi-img">
+							<img src="./images/mirage.jpg">
+
+							<div class="latest-release-artists-hindi-english-hover-icon">
+								<a href="#footer"><i class="fas fa-play"></i></a>			
+							</div>
+						</div>
+
+						<div class="latest-hindi-description">
+							<div class="onism">Onism</div>
+							<div class="date">AUG 11, 2017</div>							
+						</div>
+					</div>
+
+					<div class="latest-hindi-box">
+						<div class="latest-hindi-img">
+							<img src="./images/worryboutus.jpg">
+
+							<div class="latest-release-artists-hindi-english-hover-icon">
+								<a href="#footer"><i class="fas fa-play"></i></a>			
+							</div>
+						</div>
+
+						<div class="latest-hindi-description">
+							<div class="onism">Onism</div>
+							<div class="date">AUG 11, 2017</div>							
+						</div>
+					</div>
+
+					<div class="latest-hindi-box">
+						<div class="latest-hindi-img">
+							<img src="./images/newskin.png">
+
+							<div class="latest-release-artists-hindi-english-hover-icon">
+								<a href="#footer"><i class="fas fa-play"></i></a>			
+							</div>
+						</div>
+
+						<div class="latest-hindi-description">
+							<div class="onism">Onism</div>
+							<div class="date">AUG 11, 2017</div>							
+						</div>
+					</div>
+
+					<div class="latest-hindi-box">
+						<div class="latest-hindi-img">
+							<img src="./images/mirage.jpg">
+
+							<div class="latest-release-artists-hindi-english-hover-icon">
+								<a href="#footer"><i class="fas fa-play"></i></a>			
+							</div>
+						</div>
+
+						<div class="latest-hindi-description">
+							<div class="onism">Onism</div>
+							<div class="date">AUG 11, 2017</div>							
+						</div>
+					</div>
+
+					<div class="latest-hindi-box">
+						<div class="latest-hindi-img">
+							<img src="./images/worryboutus.jpg">
+
+							<div class="latest-release-artists-hindi-english-hover-icon">
+								<a href="#footer"><i class="fas fa-play"></i></a>			
+							</div>
+						</div>
+
+						<div class="latest-hindi-description">
+							<div class="onism">Onism</div>
+							<div class="date">AUG 11, 2017</div>							
+						</div>
+					</div>
+
+					<div class="latest-hindi-box">
+						<div class="latest-hindi-img">
+							<img src="./images/newskin.png">
+
+							<div class="latest-release-artists-hindi-english-hover-icon">
+								<a href="#footer"><i class="fas fa-play"></i></a>			
+							</div>
+						</div>
+
+						<div class="latest-hindi-description">
+							<div class="onism">Onism</div>
+							<div class="date">AUG 11, 2017</div>							
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div>
+
+		<!-- aside section -->
+
+		<div id="aside-div">
+
+			<!-- queue section -->
+
+			<div id="queue-heading-container">
+				<div id="queue-heading">
+					Queue
+				</div>
+
+				<div id="queue-dropdown">
+					<span>Queue</span>
+					<a href="#queue-dropdown-2"><i class="fas fa-chevron-down"></i></a>
+
+					<div id="queue-dropdown-2" class="dropdown-style">					
+						<div class="dropdown-button">
+							<button>
+								<a href="#queue-dropdown">X</a>
+							</button>
+						</div>
+
+						<div>
+							Playlist
+						</div>
+
+						<div>
+							Favourites
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<ol id="queue-list">
+				<li>
+					<div class="queue-box">
+						<div class="queue-img-description" class="mirage">
+							<div class="queue-img">
+								<img src="./images/mirage.jpg">
+							</div>
+
+							<div class="queue-description">
+								<div class="song-name">Mirage</div>							
+								<div class="singer-name">Else</div>						
+							</div>
+						</div>
+
+						<div class="queue-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>	
+				</li>
+
+				<li>
+					<div class="queue-box">
+						<div class="queue-img-description" class="worryboutus">
+							<div class="queue-img">
+								<img src="./images/worryboutus.jpg">
+							</div>
+
+							<div class="queue-description">
+								<div class="song-name">Worry Bout Us</div>							
+								<div class="singer-name">Rosie Lowe</div>						
+							</div>
+						</div>
+
+						<div class="queue-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>	
+				</li>
+
+				<li>
+					<div class="queue-box">
+						<div class="queue-img-description" class="newskin">
+							<div class="queue-img">
+								<img src="./images/newskin.png">
+							</div>
+
+							<div class="queue-description">
+								<div class="song-name">New Skin</div>							
+								<div class="singer-name">Flume</div>						
+							</div>
+						</div>
+
+						<div class="queue-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>	
+				</li>
+
+				<li>
+					<div class="queue-box">
+						<div class="queue-img-description" class="mirage">
+							<div class="queue-img">
+								<img src="./images/mirage.jpg">
+							</div>
+
+							<div class="queue-description">
+								<div class="song-name">Mirage</div>							
+								<div class="singer-name">Else</div>						
+							</div>
+						</div>
+
+						<div class="queue-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>	
+				</li>
+
+				<li>
+					<div class="queue-box">
+						<div class="queue-img-description" class="worryboutus">
+							<div class="queue-img">
+								<img src="./images/worryboutus.jpg">
+							</div>
+
+							<div class="queue-description">
+								<div class="song-name">Worry Bout Us</div>							
+								<div class="singer-name">Rosie Lowe</div>						
+							</div>
+						</div>
+
+						<div class="queue-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>	
+				</li>
+
+				<li>
+					<div class="queue-box">
+						<div class="queue-img-description" class="newskin">
+							<div class="queue-img">
+								<img src="./images/newskin.png">
+							</div>
+
+							<div class="queue-description">
+								<div class="song-name">New Skin</div>							
+								<div class="singer-name">Flume</div>						
+							</div>
+						</div>
+
+						<div class="queue-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>	
+				</li>
+
+				<li>
+					<div class="queue-box">
+						<div class="queue-img-description" class="mirage">
+							<div class="queue-img">
+								<img src="./images/mirage.jpg">
+							</div>
+
+							<div class="queue-description">
+								<div class="song-name">Mirage</div>							
+								<div class="singer-name">Else</div>						
+							</div>
+						</div>
+
+						<div class="queue-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>	
+				</li>
+
+				<li>
+					<div class="queue-box">
+						<div class="queue-img-description" class="worryboutus">
+							<div class="queue-img">
+								<img src="./images/worryboutus.jpg">
+							</div>
+
+							<div class="queue-description">
+								<div class="song-name">Worry Bout Us</div>							
+								<div class="singer-name">Rosie Lowe</div>						
+							</div>
+						</div>
+
+						<div class="queue-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>	
+				</li>
+
+				<li>
+					<div class="queue-box">
+						<div class="queue-img-description" class="newskin">
+							<div class="queue-img">
+								<img src="./images/newskin.png">
+							</div>
+
+							<div class="queue-description">
+								<div class="song-name">New Skin</div>							
+								<div class="singer-name">Flume</div>						
+							</div>
+						</div>
+
+						<div class="queue-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>	
+				</li>
+
+				<li>
+					<div class="queue-box">
+						<div class="queue-img-description" class="mirage">
+							<div class="queue-img">
+								<img src="./images/mirage.jpg">
+							</div>
+
+							<div class="queue-description">
+								<div class="song-name">Mirage</div>							
+								<div class="singer-name">Else</div>						
+							</div>
+						</div>
+
+						<div class="queue-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>	
+				</li>
+
+				<li>
+					<div class="queue-box">
+						<div class="queue-img-description" class="worryboutus">
+							<div class="queue-img">
+								<img src="./images/worryboutus.jpg">
+							</div>
+
+							<div class="queue-description">
+								<div class="song-name">Worry Bout Us</div>							
+								<div class="singer-name">Rosie Lowe</div>						
+							</div>
+						</div>
+
+						<div class="queue-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>	
+				</li>
+
+				<li>
+					<div class="queue-box">
+						<div class="queue-img-description" class="newskin">
+							<div class="queue-img">
+								<img src="./images/newskin.png">
+							</div>
+
+							<div class="queue-description">
+								<div class="song-name">New Skin</div>							
+								<div class="singer-name">Flume</div>						
+							</div>
+						</div>
+
+						<div class="queue-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>	
+				</li>			
+
+				<li>
+					<div class="queue-box">
+						<div class="queue-img-description" class="mirage">
+							<div class="queue-img">
+								<img src="./images/mirage.jpg">
+							</div>
+
+							<div class="queue-description">
+								<div class="song-name">Mirage</div>							
+								<div class="singer-name">Else</div>						
+							</div>
+						</div>
+
+						<div class="queue-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>	
+				</li>
+
+				<li>
+					<div class="queue-box">
+						<div class="queue-img-description" class="worryboutus">
+							<div class="queue-img">
+								<img src="./images/worryboutus.jpg">
+							</div>
+
+							<div class="queue-description">
+								<div class="song-name">Worry Bout Us</div>							
+								<div class="singer-name">Rosie Lowe</div>						
+							</div>
+						</div>
+
+						<div class="queue-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>	
+				</li>
+
+				<li>
+					<div class="queue-box">
+						<div class="queue-img-description" class="newskin">
+							<div class="queue-img">
+								<img src="./images/newskin.png">
+							</div>
+
+							<div class="queue-description">
+								<div class="song-name">New Skin</div>							
+								<div class="singer-name">Flume</div>						
+							</div>
+						</div>
+
+						<div class="queue-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>	
+				</li>
+
+				<li>
+					<div class="queue-box">
+						<div class="queue-img-description" class="mirage">
+							<div class="queue-img">
+								<img src="./images/mirage.jpg">
+							</div>
+
+							<div class="queue-description">
+								<div class="song-name">Mirage</div>							
+								<div class="singer-name">Else</div>						
+							</div>
+						</div>
+
+						<div class="queue-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>	
+				</li>
+
+				<li>
+					<div class="queue-box">
+						<div class="queue-img-description" class="worryboutus">
+							<div class="queue-img">
+								<img src="./images/worryboutus.jpg">
+							</div>
+
+							<div class="queue-description">
+								<div class="song-name">Worry Bout Us</div>							
+								<div class="singer-name">Rosie Lowe</div>						
+							</div>
+						</div>
+
+						<div class="queue-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>	
+				</li>
+
+				<li>
+					<div class="queue-box">
+						<div class="queue-img-description" class="newskin">
+							<div class="queue-img">
+								<img src="./images/newskin.png">
+							</div>
+
+							<div class="queue-description">
+								<div class="song-name">New Skin</div>							
+								<div class="singer-name">Flume</div>						
+							</div>
+						</div>
+
+						<div class="queue-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>	
+				</li>
+
+				<li>
+					<div class="queue-box">
+						<div class="queue-img-description" class="mirage">
+							<div class="queue-img">
+								<img src="./images/mirage.jpg">
+							</div>
+
+							<div class="queue-description">
+								<div class="song-name">Mirage</div>							
+								<div class="singer-name">Else</div>						
+							</div>
+						</div>
+
+						<div class="queue-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>	
+				</li>
+
+				<li>
+					<div class="queue-box">
+						<div class="queue-img-description" class="worryboutus">
+							<div class="queue-img">
+								<img src="./images/worryboutus.jpg">
+							</div>
+
+							<div class="queue-description">
+								<div class="song-name">Worry Bout Us</div>							
+								<div class="singer-name">Rosie Lowe</div>						
+							</div>
+						</div>
+
+						<div class="queue-icon">
+							<i class="far fa-heart"></i>
+						</div>
+					</div>	
+				</li>													
+			</ol>			
+		</div>
+	</main>
+
+	<!-- bottom player section -->
+
+	<footer id="footer">
+		<div id="bottom-player">
+			<div id="song-img-description-icons">
+				<div id="song-img">
+					<img src="./images/imaginedragons.jpg">
+				</div>	
+
+				<div id="song-description">
+					<div id="song-description-1">
+						Thunder
+					</div>
+
+					<div id="song-description-2">
+						Imagine Dragons
+					</div>
+				</div>		
+
+				<div id="song-icons">
+					<div class="normal-icon"><i class="far fa-heart"></i></div>
+					<div class="normal-icon"><i class="fas fa-ban"></i></div>
+				</div>
+			</div>
+
+			<div id="main-controls">
+				<div id="main-controls-icons">
+					<div class="normal-icon"><i class="fas fa-random"></i></div>
+					<div class="normal-icon"><i class="fas fa-step-backward"></i></div>			
+					<div id="main-icon"><i class="fas fa-pause"></i></div>
+					<div class="normal-icon"><i class="fas fa-step-forward"></i></div>
+					<div class="normal-icon"><i class="fas fa-redo-alt"></i></div>
+				</div>
+
+				<div id="main-controls-bar">
+					<div class="song-time">
+						1:39
+					</div>
+
+					<input type="range" min="0" max="100" step="1" value="40">
+
+					<div class="song-time">
+						4:44
+					</div>
+				</div>
+			</div>
+
+			<div id="aside-controls">
+				<div class="normal-icon"><i class="fas fa-list"></i></div>
+				<div class="normal-icon"><i class="fas fa-desktop"></i></div>
+				<div class="normal-icon"><i class="fas fa-volume-up"></i></div>
+				<input type="range" min="0" max="100" step="1" value="40">
+				<div class="normal-icon"><i class="fas fa-expand-alt"></i></div>
+			</div>		
+
+			<div id="bottom-player-button">
+				<button>
+					<a href="#latest-release-content">X</a>
+				</button>
+			</div>
+		</div>	
+	</footer>
+
+</body>
+</html>
